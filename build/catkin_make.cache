@@ -1,0 +1,2 @@
+circle_odometry
+-DCMAKE_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/app/pcm/circle_odom_ws/devel -DCMAKE_INSTALL_PREFIX=/app/pcm/circle_odom_ws/install -G Unix Makefiles

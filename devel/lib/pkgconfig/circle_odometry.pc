@@ -1,0 +1,8 @@
+prefix=/app/pcm/circle_odom_ws/devel
+
+Name: circle_odometry
+Description: Description of circle_odometry
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lkitti-pcl
+Requires: roscpp rospy std_msgs
