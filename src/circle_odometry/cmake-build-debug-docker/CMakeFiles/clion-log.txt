@@ -1,0 +1,31 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /tmp/circle_odometry -B /tmp/circle_odometry/cmake-build-debug-docker
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+CMake Error: Generator: execution of make failed. Make command was: /usr/bin/gmake cmTC_dfe5e/fast && 
+-- Check for working C compiler: /usr/bin/cc -- broken
+-- Configuring incomplete, errors occurred!
+See also "/tmp/circle_odometry/cmake-build-debug-docker/CMakeFiles/CMakeOutput.log".
+See also "/tmp/circle_odometry/cmake-build-debug-docker/CMakeFiles/CMakeError.log".
+CMake Error at /usr/share/cmake-3.16/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "/usr/bin/cc"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /tmp/circle_odometry/cmake-build-debug-docker/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/bin/gmake cmTC_dfe5e/fast && No such file or directory
+    Generator: execution of make failed. Make command was: /usr/bin/gmake cmTC_dfe5e/fast && 
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
